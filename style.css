@@ -1,0 +1,93 @@
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: 'Brush Script MT', cursive;
+  text-align: center;
+  background-color: #c78aa5;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color: #5d0000;
+  font-size: 30px;
+}
+
+h2 {
+  color: #5d0000;
+  font-size: 25px;
+}
+
+h1 {
+  color: #5d0000;
+  font-size: 25px;
+}
+
+
+#player-container {
+  display: inline-block;
+  margin-top: 50px;
+  position: relative;
+}
+
+#vinyl-image {
+  width: 450px; 
+  padding: 10px 20px;
+  height: 310px; 
+  display: block;
+  margin: 0 auto;
+}
+
+
+#vinyl-image2 {
+  width: 450px; 
+  padding: 10px 20px;
+  height: 310px; 
+  display: block;
+  margin: 0 auto;
+}
+
+#playButton {
+  font-family: 'Brush Script MT', cursive;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #520000;
+  background-color: #ba97db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#playButton2 {
+  font-family: 'Brush Script MT', cursive;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #b88fd1;
+  background-color: #4e0000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#message {
+  font-family: 'Brush Script MT', cursive;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ff000054;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
